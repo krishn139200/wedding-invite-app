@@ -45,8 +45,8 @@ if guest_name:
         can.setFont("Helvetica-Bold", 16) 
         
         # NOTE: Adjust x (left/right) and y (up/down) to match the blank line on your card
-        x_coordinate = 230
-        y_coordinate = 400
+        x_coordinate = 200
+        y_coordinate = 380
         
         can.drawString(x_coordinate, y_coordinate, guest_name)
         can.save()
